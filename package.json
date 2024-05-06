@@ -1,0 +1,13 @@
+{
+    "name": "myapp",
+    "version": "1.0.0",
+    "description": "My Node.js application",
+    "main": "index.js",
+    "scripts": {
+      "start": "node src/index.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  
