@@ -41,6 +41,21 @@ docker ps -filter name=buildkit
 
 ## 7. Przesłanie i budowa obrazu
 
-### Zalogowanie do 
+### Zalogowanie do ghci.io
+
+### Budowa obrazu
+```
+docker buildx build --ssh default=$TOKEN --platform linux/amd64  --tag ghcr.io/platynus/lab6 --push .
+```
+
+![obraz](https://github.com/Platynus/pawcho6/assets/56522713/a6bfa9d0-cb74-4864-8627-8c19a5b56886)
+
+![obraz](https://github.com/Platynus/pawcho6/assets/56522713/43299192-4749-4c4f-835c-767d409f6e51)
+
+### Zmiana widzenia paczki
+
+![obraz](https://github.com/Platynus/pawcho6/assets/56522713/ce60456c-f215-4af5-bec7-eb7dd8c51637)
+
+
 
 Next labolatory to learn Docker
